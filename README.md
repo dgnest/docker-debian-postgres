@@ -22,6 +22,18 @@ none
 
 MIT
 
+## Environment Variables
+
+This is a list of the available environment variables which can be set at runtime using -e KEY=value.
+For example, to change the default password you can issue `docker run -P --name postgresql -e POSTGRES_PASSWORD=mysecretpassword dgnest/postgres`
+
+* `POSTGRES_USER`: A superuser role. default: `postgres`
+* `POSTGRES_PASSWORD`: The password for the user. default: `postgres`
+* `POSTGRES_DB`: Name of schema to create. default: `postgres`
+* `POSTGRES_TEST_USER`: A test superuser role. default: `postgres`
+* `POSTGRES_TEST_PASSWORD`: The password for the user. default: `postgres`
+* `POSTGRES_TEST_DB`: Name of schema to create. default: `postgres_test`
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
