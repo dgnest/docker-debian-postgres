@@ -1,0 +1,7 @@
+networks: {}
+version: '2'
+services:
+  db:
+    restart: always
+    build: .
+    image: postgres:9.4
