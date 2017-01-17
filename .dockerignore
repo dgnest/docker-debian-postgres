@@ -1,3 +1,4 @@
+.git/
 etc/*
 Makefile
 script/*
