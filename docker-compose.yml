@@ -4,11 +4,4 @@ services:
   db:
     restart: always
     build: .
-    image: postgres:9.4
-    environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=dgnest
-      - POSTGRES_TEST_DB=dgnest_test
-      - POSTGRES_TEST_USER=postgres
-      - POSTGRES_TEST_PASSWORD=postgres
+    image: python:3.6
