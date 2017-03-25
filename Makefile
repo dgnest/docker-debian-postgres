@@ -1,4 +1,4 @@
-# Makefile for docker-debian-postgres.
+# Makefile for docker-postgres.
 
 # Configuration.
 SHELL = /bin/bash
