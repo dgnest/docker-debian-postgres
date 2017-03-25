@@ -1,7 +1,7 @@
 # dgnest/postgres:9.5
 
-[![Build Status](https://travis-ci.org/dgnest/docker-debian-postgres.svg)](https://travis-ci.org/dgnest/docker-debian-postgres)
-[![GitHub issues](https://img.shields.io/github/issues/dgnest/docker-debian-postgres.svg)](https://github.com/dgnest/docker-debian-postgres/issues)
+[![Build Status](https://travis-ci.org/dgnest/docker-postgres.svg)](https://travis-ci.org/dgnest/docker-postgres)
+[![GitHub issues](https://img.shields.io/github/issues/dgnest/docker-postgres.svg)](https://github.com/dgnest/docker-postgres/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 
 
