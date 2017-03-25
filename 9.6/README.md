@@ -1,8 +1,8 @@
 # dgnest/postgres:9.6
 
-[![Build Status](https://travis-ci.org/dgnest/docker-debian-postgres.svg)](https://travis-ci.org/dgnest/docker-debian-postgres)
-[![Stories in Ready](https://badge.waffle.io/dgnest/docker-debian-postgres.svg?label=ready&title=Ready)](http://waffle.io/dgnest/docker-debian-postgres)
-[![GitHub issues](https://img.shields.io/github/issues/dgnest/docker-debian-postgres.svg)](https://github.com/dgnest/docker-debian-postgres/issues)
+[![Build Status](https://travis-ci.org/dgnest/docker-postgres.svg)](https://travis-ci.org/dgnest/docker-postgres)
+[![Stories in Ready](https://badge.waffle.io/dgnest/docker-postgres.svg?label=ready&title=Ready)](http://waffle.io/dgnest/docker-postgres)
+[![GitHub issues](https://img.shields.io/github/issues/dgnest/docker-postgres.svg)](https://github.com/dgnest/docker-postgres/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 
 

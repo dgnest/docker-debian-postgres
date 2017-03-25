@@ -1,6 +1,6 @@
-# ~/.tmuxinator/docker-debian-postgres.yml
-name: docker-debian-postgres
-root: <%= ENV["PROJECTS"] %>/docker/docker-debian-postgres
+# ~/.tmuxinator/docker-postgres.yml
+name: docker-postgres
+root: <%= ENV["PROJECTS"] %>/docker/docker-postgres
 tmux_options: -2
 # Optional tmux socket
 # socket_name: foo
@@ -26,36 +26,36 @@ pre:
 # attach: false
 
 # Runs after everything. Use it to attach to tmux with custom options etc.
-# post: tmux -CC attach -t docker-debian-postgres
+# post: tmux -CC attach -t docker-postgres
 
 windows:
   - editor:
       layout: even-horizontal
       panes:
         - editor:
-            - pyenv activate docker-debian-postgres
+            - pyenv activate docker-postgres
             - <%= ENV["EDITOR"] %>
         - vagrant:
-            - pyenv activate docker-debian-postgres
+            - pyenv activate docker-postgres
         - docker:
-            - pyenv activate docker-debian-postgres
+            - pyenv activate docker-postgres
   - python:
       layout: main-vertical
       panes:
         - python:
-            - pyenv activate docker-debian-postgres
+            - pyenv activate docker-postgres
             - ipython
   - databases:
       layout: main-vertical
       panes:
         - postgresql:
-            - pyenv activate docker-debian-postgres
+            - pyenv activate docker-postgres
         - mysql:
-            - pyenv activate docker-debian-postgres
+            - pyenv activate docker-postgres
   - docker:
       layout: main-vertical
       panes:
         - code:
-            - pyenv activate docker-debian-postgres
+            - pyenv activate docker-postgres
         - vagrant:
-            - pyenv activate docker-debian-postgres
+            - pyenv activate docker-postgres
